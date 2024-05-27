@@ -3,10 +3,10 @@ Last Successfully Tested in May 2024
 
 >[!TIP]
   AfterJetpack 4.6 flashed:
-</p>
-sudo apt-get update  
-sudo apt-get install nano  
-nano /home/$USER/.bashrc   <p/> 
+
+>sudo apt-get update /n  
+>sudo apt-get install nano /n
+>nano /home/$USER/.bashrc   /n
 
 Put the cuda path below in .bashrc.                                                           
 
