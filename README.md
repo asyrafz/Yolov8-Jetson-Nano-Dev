@@ -7,7 +7,7 @@ AfterJetpack 4.6 flashed:
 
 >sudo apt-get install nano
 
->nano /home/$USER/.bashrc
+>nano /home/$USER/.bashrc  
      
      
  
