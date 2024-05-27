@@ -11,7 +11,7 @@ Last Successfully Tested in May 2024
 Put the cuda path below in .bashrc.  /n/n/n                                                         
 
 
-## check cuda location at usr/local
+##Check & Install cuda location at usr/local [Reference](https://i7y.org/en/yolov8-on-jetson-nano/)
 
 >export PATH="/usr/local/cuda-10.2/bin:$PATH"
 
