@@ -7,7 +7,7 @@ Last Successfully Tested in May 2024
 sudo apt-get update  
 sudo apt-get install nano  
 nano /home/$USER/.bashrc   </div> 
-
+<a/>
 Put the cuda path below in .bashrc.                                                           
 
 >[!NOTE]
