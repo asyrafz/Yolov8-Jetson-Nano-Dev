@@ -20,7 +20,7 @@ Put the cuda path below in .bashrc.  /n/n/n
 >dpkg -l | grep cuda  </div> 
 
 
-### jetson@jetson-desktop:/usr/local/cuda-10.2/bin$ >./nvcc --version
+### jetson@jetson-desktop:/usr/local/cuda-10.2/bin$ ***./nvcc --version***
 nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2021 NVIDIA Corporation
 Built on Sun_Feb_28_22:34:44_PST_2021
