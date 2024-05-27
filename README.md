@@ -9,17 +9,16 @@ AfterJetpack 4.6 flashed:
 
 >nano /home/$USER/.bashrc
 
-
+>[!NOTE]
 # check cuda location usr/local
-'''
-export PATH="/usr/local/cuda-10.2/bin:$PATH"
-export LD_LIBRARY_PATH="/usr/local/cuda-10.2/lib64:$LD_LIBRARY_PATH"
-'''
 
-'''
-dpkg -l | grep cuda
-'''
-'''
+>export PATH="/usr/local/cuda-10.2/bin:$PATH"
+
+>export LD_LIBRARY_PATH="/usr/local/cuda-10.2/lib64:$LD_LIBRARY_PATH"
+
+>dpkg -l | grep cuda
+
+
 jetson@jetson-desktop:/usr/local/cuda-10.2/bin$ ./nvcc --version
 nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2021 NVIDIA Corporation
