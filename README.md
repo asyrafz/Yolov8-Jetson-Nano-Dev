@@ -1,24 +1,24 @@
 # Yolov8-Jetson-Nano-Dev
 Last Successfully Tested in May 2024
 
-<div class  ="tip">
+<div class="tip">
   AfterJetpack 4.6 flashed:
 
->sudo apt-get update  
->sudo apt-get install nano  
->nano /home/$USER/.bashrc   </div> 
+sudo apt-get update  
+sudo apt-get install nano  
+nano /home/$USER/.bashrc   </div> 
 
 
 Put the cuda path below in .bashrc.
 
->[!NOTE]
+<div class=note">
 # check cuda location at usr/local
 
->export PATH="/usr/local/cuda-10.2/bin:$PATH"
+export PATH="/usr/local/cuda-10.2/bin:$PATH"
 
->export LD_LIBRARY_PATH="/usr/local/cuda-10.2/lib64:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH="/usr/local/cuda-10.2/lib64:$LD_LIBRARY_PATH"
 
->dpkg -l | grep cuda
+dpkg -l | grep cuda  </div> 
 
 
 ### jetson@jetson-desktop:/usr/local/cuda-10.2/bin$ ./nvcc --version
