@@ -9,7 +9,8 @@ AfterJetpack 4.6 flashed:
 
 >nano /home/$USER/.bashrc
  
->.
+
+
  
 >[!NOTE]
 # check cuda location at usr/local
