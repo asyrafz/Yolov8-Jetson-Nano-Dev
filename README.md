@@ -8,10 +8,9 @@ Last Successfully Tested in May 2024
 >sudo apt-get install nano 
 >nano /home/$USER/.bashrc   
 
-Put the cuda path below in .bashrc.  /n/n/n                                                         
+Put the cuda path below in .bashrc.
 
-
-##Check & Install cuda location at usr/local [Reference](https://i7y.org/en/yolov8-on-jetson-nano/)
+## Check & Install cuda location at usr/local [Reference](https://i7y.org/en/yolov8-on-jetson-nano/)
 
 >export PATH="/usr/local/cuda-10.2/bin:$PATH"
 
