@@ -8,9 +8,8 @@ AfterJetpack 4.6 flashed:
 >sudo apt-get install nano
 
 >nano /home/$USER/.bashrc
- 
-[!TIP]<
-
+     
+     
  
 >[!NOTE]
 # check cuda location at usr/local
