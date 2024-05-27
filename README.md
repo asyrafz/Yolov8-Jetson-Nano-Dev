@@ -10,8 +10,8 @@ Last Successfully Tested in May 2024
 
 Put the cuda path below in .bashrc.  /n/n/n                                                         
 
->[!NOTE]
-# check cuda location at usr/local
+
+## check cuda location at usr/local
 
 export PATH="/usr/local/cuda-10.2/bin:$PATH"
 
@@ -27,8 +27,8 @@ Built on Sun_Feb_28_22:34:44_PST_2021
 Cuda compilation tools, release 10.2, V10.2.300
 Build cuda_10.2_r440.TC440_70.29663091_0
 
->[!IMPORTANT]
-# ---step yolov8---
+
+## ---step yolov8---
 
 >sudo apt update
 
@@ -43,21 +43,21 @@ Build cuda_10.2_r440.TC440_70.29663091_0
 
 >pip install -U pip wheel gdown
 
->[!IMPORTANT]
-# pytorch 1.11.0
+
+## pytorch 1.11.0
 
 >gdown https://drive.google.com/uc?id=1hs9HM0XJ2LPFghcn7ZMOs5qu5HexPXwM
 
->[!IMPORTANT]
-# torchvision 0.12.0
+
+## torchvision 0.12.0
 
 >gdown https://drive.google.com/uc?id=1m0d8ruUY8RvCP9eVjZw4Nc8LAwM8yuGV
 >python3.8 -m pip install torch-*.whl torchvision-*.whl
 
 >pip install .
 
->[!NOTE]
-# Now you can try :scroll:
+
+## Now you can try :scroll:
 
 >yolo task=detect mode=predict model=yolov8n.pt source=0 show=True
 >yolo task=segment mode=predict model=yolov8n-seg.pt source=0 show=True
