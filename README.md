@@ -1,12 +1,12 @@
 # Yolov8-Jetson-Nano-Dev
 Last Successfully Tested in May 2024
 
->[!TIP]
-AfterJetpack 4.6 flashed:
+<div class  ="tip">
+  AfterJetpack 4.6 flashed:
 
 >sudo apt-get update  
 >sudo apt-get install nano  
->nano /home/$USER/.bashrc   
+>nano /home/$USER/.bashrc   </div> 
 
 
 Put the cuda path below in .bashrc.
