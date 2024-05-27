@@ -11,7 +11,7 @@ nano /home/$USER/.bashrc   </div>
 
 Put the cuda path below in .bashrc.
 
-<div class=note">
+>[!NOTE]
 # check cuda location at usr/local
 
 export PATH="/usr/local/cuda-10.2/bin:$PATH"
