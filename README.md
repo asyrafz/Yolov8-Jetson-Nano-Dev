@@ -1,19 +1,24 @@
 # Yolov8-Jetson-Nano-Dev
 Last Successfully Tested in May 2024
 
+AfterJetpack 4.6 flashed:
+'''
 sudo apt-get update
 
 sudo apt-get install nano
 
 nano /home/$USER/.bashrc
+'''
 
-#check cuda location usr/local
-
+# check cuda location usr/local
+'''
 export PATH="/usr/local/cuda-10.2/bin:$PATH"
 export LD_LIBRARY_PATH="/usr/local/cuda-10.2/lib64:$LD_LIBRARY_PATH"
+'''
 
+'''
 dpkg -l | grep cuda
-
+'''
 jetson01@jetson01-desktop:/usr/local/cuda-10.2/bin$ ./nvcc --version
 nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2021 NVIDIA Corporation
@@ -21,7 +26,7 @@ Built on Sun_Feb_28_22:34:44_PST_2021
 Cuda compilation tools, release 10.2, V10.2.300
 Build cuda_10.2_r440.TC440_70.29663091_0
 
----step yolov8---
+# ---step yolov8---
 
 sudo apt update
 
