@@ -19,13 +19,12 @@ AfterJetpack 4.6 flashed:
 >dpkg -l | grep cuda
 
 
->jetson@jetson-desktop:/usr/local/cuda-10.2/bin$ ./nvcc --version
-
->nvcc: NVIDIA (R) Cuda compiler driver
->Copyright (c) 2005-2021 NVIDIA Corporation
->Built on Sun_Feb_28_22:34:44_PST_2021
->Cuda compilation tools, release 10.2, V10.2.300
->Build cuda_10.2_r440.TC440_70.29663091_0
+### jetson@jetson-desktop:/usr/local/cuda-10.2/bin$ ./nvcc --version
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2021 NVIDIA Corporation
+Built on Sun_Feb_28_22:34:44_PST_2021
+Cuda compilation tools, release 10.2, V10.2.300
+Build cuda_10.2_r440.TC440_70.29663091_0
 
 >[!IMPORTANT]
 # ---step yolov8---
