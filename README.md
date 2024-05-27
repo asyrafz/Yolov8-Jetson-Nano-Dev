@@ -9,7 +9,7 @@ AfterJetpack 4.6 flashed:
 
 >nano /home/$USER/.bashrc
  
-<
+[!TIP]<
 
  
 >[!NOTE]
